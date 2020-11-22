@@ -10,7 +10,7 @@ app.locals.title = "Test Potter";
 app.use(express.json());
 
 app.get('/', (req, res) => {
-  response.send('Potter Server');
+  res.send('Potter Server');
 });
 
 app.get('/api/v1/houses', async (req, res) => {
