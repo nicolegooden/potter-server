@@ -1,6 +1,7 @@
 
 exports.up = function(knex) {
-  return knex.schema.createTable('characters', function (table) {
+  return knex.schema
+   .createTable('characters', function (table) {
     table.increments('id').primary();
     table.string('boggart');
     table.string('name');
