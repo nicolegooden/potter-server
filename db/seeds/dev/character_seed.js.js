@@ -1,4 +1,4 @@
-const charactersData = require('../../data/charactersData');
+const charactersData = require('../../../data/charactersData');
 
 const createCharacter = async (knex, character) => {
   await knex('characters').insert({

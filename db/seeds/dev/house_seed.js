@@ -1,4 +1,4 @@
-const housesData = require('../../data/housesData');
+const housesData = require('../../../data/housesData');
 
 const createHouse = async (knex, house) => {
   await knex('houses').insert({

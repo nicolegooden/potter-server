@@ -1,4 +1,4 @@
-const spellsData = require('../../data/spellsData');
+const spellsData = require('../../../data/spellsData');
 
 const createSpell = async (knex, spell) => {
   await knex('spells').insert({
