@@ -6,7 +6,7 @@ const createCharacter = async (knex, character) => {
     name: character.name,
     house: character.house,
     role: character.role,
-    species: character.species,
+    species: character.species || 'human',
     bloodStatus: character.bloodStatus,
     dumbledorsArmy: character.dumbledorsArmy,
     orderOfThePhoenix: character.orderOfThePhoenix,
