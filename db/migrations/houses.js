@@ -1,8 +1,7 @@
-
 exports.up = function(knex) {
   return knex.schema
     .createTable('houses', function (table) {
-      table.increments('id').primary();
+      table.increments('_id').primary();
       table.string('name');
       table.string('headOfHouse');
       table.string('founder');
