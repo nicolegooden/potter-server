@@ -44,3 +44,9 @@ When the application is working as expected, this message will log in the termin
 
 Postman is a great resource for viewing data resolved from these GET requests.
 
+### Next Steps
+
++ Add images to `characters` table in the database in order to alleviate the text-heavy feel of the frontend.
++ Insert more columns in the `knex schema` so that character objects include more details (wands, achievements, movie features, etc.)
++ Create more non-student characters to expand choice on the frontend
+
