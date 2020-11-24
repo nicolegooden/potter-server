@@ -18,7 +18,9 @@ Application: *Potter* is an interactive, story-based application inspired by Har
 ### Deployment to Heroku
 
 [Spells](https://potter-server.herokuapp.com/api/v1/spells)
+
 [Houses](https://potter-server.herokuapp.com/api/v1/houses)
+
 [Characters](https://potter-server.herokuapp.com/api/v1/characters)
 
 To retrieve data for a specific character, the `characters` table is queried by matching ID.
